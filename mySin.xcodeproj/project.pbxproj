@@ -14,6 +14,12 @@
 		B81996161A69B5CB0097D961 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81996141A69B5CB0097D961 /* LaunchScreen.xib */; };
 		B81996221A69B5CB0097D961 /* mySinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B81996211A69B5CB0097D961 /* mySinTests.m */; };
 		B819962C1A69B9780097D961 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B819962B1A69B9780097D961 /* ViewController.xib */; };
+		B81996301A69C4250097D961 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B819962E1A69C4250097D961 /* LoginViewController.m */; };
+		B81996311A69C4250097D961 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B819962F1A69C4250097D961 /* LoginViewController.xib */; };
+		B81996351A69C6C40097D961 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81996331A69C6C40097D961 /* MainViewController.m */; };
+		B81996361A69C6C40097D961 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81996341A69C6C40097D961 /* MainViewController.xib */; };
+		B819963A1A69C6F60097D961 /* AddSinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81996381A69C6F60097D961 /* AddSinViewController.m */; };
+		B819963B1A69C6F60097D961 /* AddSinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81996391A69C6F60097D961 /* AddSinViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,15 @@
 		B81996201A69B5CB0097D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81996211A69B5CB0097D961 /* mySinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySinTests.m; sourceTree = "<group>"; };
 		B819962B1A69B9780097D961 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B819962D1A69C4250097D961 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B819962E1A69C4250097D961 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B819962F1A69C4250097D961 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B81996321A69C6C40097D961 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B81996331A69C6C40097D961 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B81996341A69C6C40097D961 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B81996371A69C6F60097D961 /* AddSinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSinViewController.h; sourceTree = "<group>"; };
+		B81996381A69C6F60097D961 /* AddSinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSinViewController.m; sourceTree = "<group>"; };
+		B81996391A69C6F60097D961 /* AddSinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,15 @@
 			children = (
 				B81996091A69B5CB0097D961 /* AppDelegate.h */,
 				B819960A1A69B5CB0097D961 /* AppDelegate.m */,
+				B81996371A69C6F60097D961 /* AddSinViewController.h */,
+				B81996381A69C6F60097D961 /* AddSinViewController.m */,
+				B81996391A69C6F60097D961 /* AddSinViewController.xib */,
+				B81996321A69C6C40097D961 /* MainViewController.h */,
+				B81996331A69C6C40097D961 /* MainViewController.m */,
+				B81996341A69C6C40097D961 /* MainViewController.xib */,
+				B819962D1A69C4250097D961 /* LoginViewController.h */,
+				B819962E1A69C4250097D961 /* LoginViewController.m */,
+				B819962F1A69C4250097D961 /* LoginViewController.xib */,
 				B819960C1A69B5CB0097D961 /* ViewController.h */,
 				B819960D1A69B5CB0097D961 /* ViewController.m */,
 				B819962B1A69B9780097D961 /* ViewController.xib */,
@@ -199,7 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81996311A69C4250097D961 /* LoginViewController.xib in Resources */,
 				B81996161A69B5CB0097D961 /* LaunchScreen.xib in Resources */,
+				B81996361A69C6C40097D961 /* MainViewController.xib in Resources */,
+				B819963B1A69C6F60097D961 /* AddSinViewController.xib in Resources */,
 				B819962C1A69B9780097D961 /* ViewController.xib in Resources */,
 				B81996131A69B5CB0097D961 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81996301A69C4250097D961 /* LoginViewController.m in Sources */,
 				B819960E1A69B5CB0097D961 /* ViewController.m in Sources */,
 				B819960B1A69B5CB0097D961 /* AppDelegate.m in Sources */,
+				B81996351A69C6C40097D961 /* MainViewController.m in Sources */,
 				B81996081A69B5CB0097D961 /* main.m in Sources */,
+				B819963A1A69C6F60097D961 /* AddSinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

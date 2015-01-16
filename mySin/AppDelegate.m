@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +21,12 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ViewController *initialViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:[NSBundle mainBundle]];
+    LoginViewController *mainVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
     
-    self.window.rootViewController = initialViewController;
+    UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    
+    
+    self.window.rootViewController = navigationVC;
     [self.window makeKeyAndVisible];
     
     return YES;
