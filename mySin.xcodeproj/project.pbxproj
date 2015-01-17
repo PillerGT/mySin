@@ -20,6 +20,7 @@
 		B81996361A69C6C40097D961 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81996341A69C6C40097D961 /* MainViewController.xib */; };
 		B819963A1A69C6F60097D961 /* AddSinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81996381A69C6F60097D961 /* AddSinViewController.m */; };
 		B819963B1A69C6F60097D961 /* AddSinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81996391A69C6F60097D961 /* AddSinViewController.xib */; };
+		B82E98EB1A6A9FF900A318C6 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = B82E98EA1A6A9FF900A318C6 /* Action.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B81996371A69C6F60097D961 /* AddSinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSinViewController.h; sourceTree = "<group>"; };
 		B81996381A69C6F60097D961 /* AddSinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSinViewController.m; sourceTree = "<group>"; };
 		B81996391A69C6F60097D961 /* AddSinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSinViewController.xib; sourceTree = "<group>"; };
+		B82E98E91A6A9FF900A318C6 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		B82E98EA1A6A9FF900A318C6 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		B81996041A69B5CB0097D961 /* mySin */ = {
 			isa = PBXGroup;
 			children = (
+				B82E98E91A6A9FF900A318C6 /* Action.h */,
+				B82E98EA1A6A9FF900A318C6 /* Action.m */,
 				B81996091A69B5CB0097D961 /* AppDelegate.h */,
 				B819960A1A69B5CB0097D961 /* AppDelegate.m */,
 				B81996371A69C6F60097D961 /* AddSinViewController.h */,
@@ -251,6 +256,7 @@
 				B819960B1A69B5CB0097D961 /* AppDelegate.m in Sources */,
 				B81996351A69C6C40097D961 /* MainViewController.m in Sources */,
 				B81996081A69B5CB0097D961 /* main.m in Sources */,
+				B82E98EB1A6A9FF900A318C6 /* Action.m in Sources */,
 				B819963A1A69C6F60097D961 /* AddSinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
